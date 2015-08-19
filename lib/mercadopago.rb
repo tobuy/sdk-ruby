@@ -314,7 +314,7 @@ class MercadoPago
 			end
 
 			headers = {
-				'User-Agent' => "MercadoPago Ruby SDK v" + MERCADO_PAGO_VERSION,
+				'User-Agent' => "MercadoPago Ruby SDK v0.3.3",
 				'Content-type' => content_type,
 				'Accept' => MIME_JSON
 			}
